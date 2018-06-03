@@ -1,0 +1,60 @@
+/*GENERAL STYLES*/
+body {
+  font-family: monospace;
+  text-align: center;
+  margin: 50px;
+}
+
+
+header {
+  font-family: 'Roboto Slab', serif;
+
+}
+
+article {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  width: 100%;
+
+}
+nav a {
+  font-size: 14px;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: lightgrey;
+  color: black;
+
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+article:nth-of-type(2n+1) {
+  background-color: #eaebed;
+}
+
+#musica > article {
+  background-color: white;
+}
+
+.no-break {
+  white-space: nowrap;
+}
